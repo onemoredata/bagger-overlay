@@ -1,0 +1,12 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="1000" quality="experimental">
+    <name>bagger-overlay</name>
+    <description>Bagger Project Official Overlay</description>
+    <homepage>https://github.com/onemoredata/bagger-overlay</homepage>
+    <owner>
+      <email>team@onemoredata.com</email>
+      <name>OneMoreData engineers</name>
+    </owner>
+    <source type="git"> https://github.com/onemoredata/bagger-overlay.git</source>
+  </repo>
+</repositories>
