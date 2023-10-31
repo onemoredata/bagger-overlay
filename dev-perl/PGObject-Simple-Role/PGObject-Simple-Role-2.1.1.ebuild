@@ -21,5 +21,3 @@ DEPEND="
 "
 
 RDEPEND="$DEPEND"
-
-BDEPEND="test? ( virtual/perl-Test-Simple )"

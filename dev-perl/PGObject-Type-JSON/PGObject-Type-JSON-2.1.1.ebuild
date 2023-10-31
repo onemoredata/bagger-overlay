@@ -24,5 +24,9 @@ BDEPEND="
 	test? (
 		dev-perl/Carp-Always
 		dev-perl/Test2-Suite
+		virtual/perl-Test-Simple
+		dev-perl/Test-Pod-Coverage
+		dev-perl/Test-Pod
 	)
+	dev-lang/perl
 "
