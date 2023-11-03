@@ -17,4 +17,4 @@ RDEPEND="dev-perl/DateTime-TimeZone
 	dev-perl/DateTime
 	>=dev-perl/PGObject-2.0.1"
 
-BDEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}"
