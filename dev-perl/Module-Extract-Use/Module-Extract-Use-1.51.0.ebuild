@@ -10,12 +10,12 @@ inherit perl-module
 
 DESCRIPTION="Module::Extract::Use - Discover the modules a module explicitly uses"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT=0
 
-RDEPEND="virtual/perl-ExtUtils-MakeMaker
+RDEPEND="
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	"
+"
 
-BDEPEND="${RDEPEND}
-	"
+DEPEND="${RDEPEND}"
