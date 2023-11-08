@@ -13,10 +13,11 @@ DESCRIPTION="Test::Prereq - check if Makefile.PL has the right pre-requisites"
 KEYWORDS="~amd64"
 SLOT=0
 
-RDEPEND="virtual/perl-ExtUtils-MakeMaker
+RDEPEND="
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	dev-perl/Module-Extract-Use
-	"
+"
+DEPEND="${RDEPEND}"
 
-BDEPEND="${RDEPEND}
-	"
+BDEPEND="${RDEPEND}"

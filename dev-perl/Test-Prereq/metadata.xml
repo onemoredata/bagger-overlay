@@ -13,7 +13,7 @@
     <email>perl@gentoo.org</email>
   </maintainer>
   <longdescription lang="en">
-	  Extract the names of the modules used in a file using a static analysis. Since this module does not run code, it cannot find dynamic uses of modules, such as eval "require $class". It only reports modules that the file loads directly or are in the import lists for parent or base.
+      Extract the names of the modules used in a file using a static analysis. Since this module does not run code, it cannot find dynamic uses of modules, such as eval "require $class". It only reports modules that the file loads directly or are in the import lists for parent or base.
 
 The module can handle the conventional inclusion of modules with either use or require as the statement:
 </longdescription>
